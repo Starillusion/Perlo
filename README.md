@@ -3,10 +3,14 @@ option, another use is hiding communications from a person but you don't want to
 but there is a little bit of setup needed!
 
  • Step 1: Clone this repository (if you haven't already) to a destination such as your user account folder (usually under C:\User\myUser).
- • Step 2: Open the Perlo directory, go into the folder **server**, then use Notepad or Nano (on Linux) to open the **config.json** file.
- • Step 3: Look for the **masterpass** property and change it to your desired password **IMPORTANT: Leave the quotes in, type in between them**
- • Step 4: Close and save the file, then go to the **env** directory, and open the **CurrentAdmin** file. This tells Perlo what user is the server
+
+• Step 2: Open the Perlo directory, go into the folder **server**, then use Notepad or Nano (on Linux) to open the **config.json** file.
+
+• Step 3: Look for the **masterpass** property and change it to your desired password **IMPORTANT: Leave the quotes in, type in between them**
+
+• Step 4: Close and save the file, then go to the **env** directory, and open the **CurrentAdmin** file. This tells Perlo what user is the server
                 administrator, so set it to a name of your choice. **Note: You'll need this name for the next step, so keep it on hand.**
+ 
  • Step 5: You're almost done, but you'll need to do something that most other instructions don't ask for - change into the main directory
                 and launch Perlo **before the setup is finished**, since the **CurrentAdmin** points towards a nonexistent user, **don't do anything
                 that makes the code open that file.** To launch Perlo, simply type **./launcher** while in the root of this repository, and watch it come
