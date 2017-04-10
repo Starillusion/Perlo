@@ -6,7 +6,7 @@ but there is a little bit of setup needed!
 
 • Step 2: Open the Perlo directory, go into the folder **server**, then use Notepad or Nano (on Linux) to open the **config.json** file.
 
-• Step 3: Look for the **masterpass** property and change it to your desired password **IMPORTANT: Leave the quotes in, type in between them**
+• Step 3: Look for the **masterpass** property and change it to your desired password. IMPORTANT: Leave the quotes in, type in between them**
 
 • Step 4: Close and save the file, then go to the **env** directory, and open the **CurrentAdmin** file. This tells Perlo what user is the server
                 administrator, so set it to a name of your choice. **Note: You'll need this name for the next step, so keep it on hand.**
