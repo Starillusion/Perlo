@@ -26,4 +26,4 @@ but there is a little bit of setup needed!
 
 • Step 6: You're done! Now go chat with some friends....
 
-Note: Some modules included in Perlo can be copied and used in **your projects!**
+Note: Some modules included in Perlo can be copied and used in **your projects!** (under **server/lib**)
